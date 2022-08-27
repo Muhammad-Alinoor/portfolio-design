@@ -1,0 +1,85 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.flexible-area {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 2% 6%;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.top-banner {
+    background-image: url(/pictures/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-bg {
+    background-image: url(/pictures/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area {
+    background-image: url(/pictures//exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+#stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+}
+
+#baby-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, orange);
+    border-image-slice: 1;
+}
+
+footer {
+    background-color: black;
+    padding: 1% 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
